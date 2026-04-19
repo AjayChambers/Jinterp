@@ -39,3 +39,18 @@
 
 # debug information files
 *.dwo
+
+# Build, cache, and temporary directories
+build/*
+!build/.gitkeep
+.cache/*
+!.cache/.gitkeep
+.temp/*
+!.temp/.gitkeep
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
