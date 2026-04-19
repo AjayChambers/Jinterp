@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        "*.h": "cpp",
+        "*.hpp": "cpp"
+    },
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+}
